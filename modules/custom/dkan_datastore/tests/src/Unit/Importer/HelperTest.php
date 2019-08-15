@@ -1,17 +1,17 @@
 <?php
 
-namespace Drupal\Tests\dkan_datastore\Unit\Manager;
+namespace Drupal\Tests\dkan_datastore\Unit\Importer;
 
 use Drupal\Core\Entity\EntityRepository;
 use Drupal\Core\Field\FieldItemList;
 use Drupal\Core\Field\Plugin\DataType\FieldItem;
 use Drupal\dkan_common\Tests\DkanTestBase;
-use Drupal\dkan_datastore\Manager\Helper;
+use Drupal\dkan_datastore\Importer\Helper;
 use Drupal\dkan_datastore\Storage\Database;
 use Drupal\node\Entity\Node;
 
 /**
- * @coversDefaultClass Drupal\dkan_datastore\Manager\Helper
+ * @coversDefaultClass Drupal\dkan_datastore\Importer\Helper
  * @group              dkan_datastore
  */
 class HelperTest extends DkanTestBase {
